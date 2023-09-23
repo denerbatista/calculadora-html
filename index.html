@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora Simples</h1>
+    
+    <div id="home">
+        <input type="text" id="input">
+        <div>
+            <button id="limpar" onclick="limpar()">C</button>   
+            <button id="apagar">&#11013;</button>
+            <button id="porcentagem" onclick="digitar('%')">%</button>
+            <button id="raiz" onclick="digitar('√')">√</button>
+        </div>
+        
+        <div>
+            <button id="sete" onclick="digitar('7')">7</button>
+            <button id="oito" onclick="digitar('8')">8</button>
+            <button id="nove" onclick="digitar('9')">9</button>
+            <button id="adicao"onclick="digitar('+')">+</button>
+        </div>
+        
+        <div>
+            <button id="quatro" onclick="digitar('4')">4</button>
+            <button id="cinco" onclick="digitar('5')">5</button>
+            <button id="seis" onclick="digitar('6')">6</button>
+            <button id="subtracao" onclick="digitar('-')">-</button>
+        </div>
+        
+        <div>
+            <button id="um" onclick="digitar('1')">1</button>
+            <button id="dois" onclick="digitar('2')">2</button>
+            <button id="tres" onclick="digitar('3')">3</button>
+            <button id="multilicacao" onclick="digitar('*')">*</button>
+        </div>
+        
+        <div>
+            <button id="ponto" onclick="digitar('.')">.</button>
+            <button id="zero" onclick="digitar('0')">0</button>
+            <button id="igual">=</button>
+            <button id="divisao" onclick="digitar('/')">/</button>
+        </div>
+        
+    </div>
+
+</body>
+<script src="index.js"></script>
+</html>
