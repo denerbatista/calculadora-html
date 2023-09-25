@@ -5,6 +5,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     height: 32px;
     width: 32px;
 }
@@ -17,7 +18,11 @@ button {
     align-items: center;
 }
 
-input {
+#display {
     width: 122px;
     padding: 7px;
+}
+
+#limpar {
+    width: 140px;
 }
